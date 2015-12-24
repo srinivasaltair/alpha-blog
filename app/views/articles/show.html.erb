@@ -1,4 +1,7 @@
 <div class="well col-xs-8 col-xs-offset-2">
+
+  <%= image_tag(@article.image.url) if @article.image %>
+
   <h2 align="left"><%= @article.title %></h2>
 
   <p><%= simple_format(@article.description) %></p>
