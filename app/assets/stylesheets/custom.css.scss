@@ -1,0 +1,57 @@
+$navbar-default-bg: rgb(255, 72, 63);
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#logo{
+  font-weight: bold;
+  font-size:1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.navbar{
+  border-radius: 0px;
+}
+
+.navbar-default .navbar-nav > li > a{
+  color: aliceblue;
+  &:hover{
+    color: #fff;
+  }
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+  color: aliceblue;
+  &:hover{
+    color: #fff;
+  }
+}
+
+.jumbotron{
+  height: 550px;
+  h1{
+    text-transform: uppercase;
+  }
+}
+
+footer{
+  margin-top:45px;
+  padding-top:5px;
+  border-top:1px solid #eaeaea;
+  color: #777;
+  a:hover{
+    color: #222;
+  }
+  small{
+    float: left;
+  }
+  ul{
+    float: right;
+    list-style: none;
+    li{
+      float: left;
+      margin-left: 15px;
+    }
+  }
+}
